@@ -10,7 +10,7 @@ import {
   loadExpoPushToken,
   saveExpoPushToken,
 } from '@/lib/expo-push-token-store';
-import { auth, db } from '@/lib/firebase';
+import { auth, db } from '../../lib/firebase';
 import { registerForPushNotifications, type PushTokenResult } from '@/lib/notifications';
 
 export default function ExplorerScreen() {
